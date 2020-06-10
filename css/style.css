@@ -361,3 +361,23 @@ body {
   -o-transform: translateX(0px);
   transform: translateX(0px);
 }
+
+.pop-up .content .subscribe .submit_btn{
+  background-color: #8e6ac1;
+  color: #ffffff;
+  border: 1px solid #8e6ac1;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+@media (min-width: 768px) {
+  .pop-up .content .subscribe .submit_btn {
+    width: 25%;
+  }
+}
+.pop-up .content .subscribe .submit_btn:hover {
+  cursor: pointer;
+  background-color: #7349af;
+  border-color: #7349af;
+}
